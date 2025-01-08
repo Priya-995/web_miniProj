@@ -1,0 +1,193 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+    overflow-y: scroll;
+}
+
+header {
+    height: 200px;
+    margin-top: 4.6em;
+    background-image: linear-gradient(pink, purple);
+    color: #000000;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0
+     2px 10px rgba(0, 0, 0, 0.2);
+}
+header h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* main{
+    background-color: #000000;
+} */
+
+h2{
+    text-align: center;
+    width: 1450px;
+    height: 100px;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
+}
+h2:hover{
+    font-size:xx-large;
+}
+
+.hero-banner {
+    background: linear-gradient(to right, #333, #555);
+    color:#222;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px rgb(232, 248, 83),
+    0 0 30px ,
+    0 0 40px ,
+    0 0 55px ,
+    0 0 70px ;
+   
+ 
+    text-align: center;
+}
+.hero-content{
+ background-image:url(images/environmental-impact-of-smart-tv-usage.jpg) ;
+   background-size:cover;
+   background-repeat:no-repeat;
+text-align: center;
+ height: 400px;
+
+ transition-property: all;
+ transition-duration: 1s;
+ transition-timing-function: ease-in;
+ transition-delay: 1ms;
+}
+
+
+.hero-banner :hover{
+
+    background-image:url(images/what-is-a-smart-tv-good-for.jpg);
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+   ;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for images */
+    object-fit: cover;
+
+}
+
+.product-card h3 {
+    margin: 15px 0;
+    color: #333;
+}
+
+.product-card p {
+    padding: 0 15px;
+    color: #666;
+}
+
+.product-card button {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+    background-color: #555;
+}
+
+
+/**Footer-section **/
+footer{
+    height:100em;
+    width:100%;
+    
+    background-color: #222;
+    color: #fff;
+    padding: 8px;
+  
+}
+footer .part1{
+    text-align: center;
+}
+footer h3{
+    margin-left:80px;
+    margin-bottom: 30px;
+    color:aliceblue;
+}
+.f-btns .btn{
+  
+    color:white;
+    margin:5px;
+    
+}
+.f-btns{
+    margin-left:80px;
+}
+.btn:hover{
+    color:black;
+}
+.para{
+    color:white;
+    opacity:.5;
+    margin-top: 80px;
+    margin-left:200px;
+    margin-right:200px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    
+}
+.lists  {
+   display: flex;
+}
+.lists li{
+    list-style: none;
+    color:white;
+    opacity:.7;
+    font-size:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.f-last{
+    color:white;
+    opacity:.7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btm-part{
+    margin-left:200px;
+}
+
+
+
+
+
+

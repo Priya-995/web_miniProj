@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #050404;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Black background with some transparency */
+    backdrop-filter: blur(8px); /* Apply blur effect to the background */
+    -webkit-backdrop-filter: blur(8px); /* Safari support for the blur effect */
+    width: 100%; 
+    height: 4.2em;  
+    margin: bottom 2px;
+    top: 0;  /* Keep the nav fixed at the top */
+    left: 0; /* Ensure it spans the full width */
+    z-index: 1000; /* Ensures the nav stays on top of other elements */
+    position: fixed;
+}
+.logo img{
+    height:19em;
+    width:22em;
+    padding-bottom: 1em;
+    padding-top: .2em;
+
+    
+}
+.d-flex{
+    margin-top: 10px;
+    
+}
+nav li a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(171, 172, 175);
+    text-decoration: none;
+    transition: transform 0.4s ease, color 0.3s ease;
+} 
+nav li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: .5em; 
+}
+nav li a:hover {
+    transform: scale(1.2); 
+    color: white; 
+}
+nav li i{
+    font-size: small;
+    padding-left: 1em;
+    color:white;
+}
+section {
+    margin-top: 4.7em; /* Add margin to push content below the fixed nav */
+}
+header {
+    background: #0b0b0b;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top:50px;
+
+}
+.div{
+    
+    width: 100%; /* Set the width of the container */
+    /* margin: 20px auto;  */
+}
+.img1{
+    margin-top:20px;
+    width:100%;
+    height:700px;
+    margin:0;
+    padding:0;
+}
+
+
+.scroll{
+    font-size: 60px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top:15px;
+    margin-bottom:15px;
+    color:white;
+    padding-top:15px;
+}
+.product-section {
+    margin: 60px;
+    background-color: #333;
+    border-radius: 20px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+.product-container {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    padding: 10px 0;
+    scroll-behavior: smooth; /* Smooth scrolling */
+    scrollbar-width: none;
+    background-color: #333;
+}
+.product-container::-webkit-scrollbar {
+    display: none; /* Hides scrollbar for Chrome, Safari, and Opera */
+}
+.product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    padding: 10px;
+    margin-right: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    flex: 0 0 auto; 
+    width:400px;
+}
+.product-card1 {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    padding: 10px;
+    margin-right: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    flex: 0 0 auto; 
+    width:200px;
+    height:400px;
+    position:relative;
+}
+.product-card1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card1 img {
+    width:100%;
+    border-radius:24px;
+}
+.product-card img {
+    width:100%;
+    height: auto;
+    height:100%;
+    border-radius:24px;
+}
+
+
+
+
+
+
+
+
+.foot{
+    background-color: black;
+    display: flex;
+    width:100%;
+    height:900px;
+    margin-bottom:40px;
+}
+.imagez{
+    border-radius: 24px;
+    height:600px;
+    width:900px;
+    margin-top: 60px;
+    margin-left:60px;
+    margin-right:60px;
+}
+.inside{
+    width:350px;
+    margin-left:100px;
+}
+.p1{
+    font-size:60px;
+    text-align:left;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.p2{
+    color:grey;
+    font-size:30px;
+    text-align:left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+
+
+
+.butt1{
+    position:absolute;
+    bottom:20px;
+    right:28px;
+}
+button {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: rgb(128, 206, 240);
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+
+   }
+   
+   button:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+   }
+   
+   button:hover:not(:disabled) {
+    background: rgb(111, 166, 199);
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+   }
+   
+   button:disabled {
+    cursor: auto;
+    color: grey;
+   }

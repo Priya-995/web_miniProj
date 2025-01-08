@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://motionbgs.com/i/c/364x205/media/5348/abstract-color-lines.jpg');
+    display: flex;
+   background-size: cover;
+    justify-content: center;
+   
+    align-items: center;
+    height: 100vh;
+      /* Full height */
+}
+
+/* Cart Section Styles */
+.cart-container {
+    margin-top: 4.7em;
+    width: 100%;
+    max-width: 600px; /* Maximum width for larger screens */
+    padding: 20px;
+    background-image: linear-gradient(rgb(250, 250, 98),rgb(244, 92, 92));
+    border: 3px black;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease; /* Transition effect */
+
+}
+h2{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cart-container:hover {
+    transform: scale(1.02); /* Scale effect on hover */
+   border-color:red;
+}
+
+.empty-cart {
+    margin-top: 20px;
+  
+}
+
+.empty-cart p {
+text-decoration:underline;
+    font-size: 18px;
+    color:rgb(255, 3, 3);
+    
+}
+
+.shop-now {
+    text-decoration: none;
+    background-color:darkblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition effects */
+}
+
+.shop-now:hover {
+    text-decoration: none;
+    background-color:yellow; /* Darker green on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+     color: black;
+}
+
+.shop-now:active {
+    text-decoration: none;
+    transform: translateY(0); /* Reset lift effect when clicked */
+}
