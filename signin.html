@@ -92,38 +92,109 @@ nav li i{
         </nav>
     </header>
     <div class="wrapper">
-        <form action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="">
+        <form action="#" onsubmit="return validateForm()">
             <h2>Welcome</h2>
             <div class="input-field">
-                <input type="text" name="name" required>
-                <label>Enter your name</label>
+                <input type="email" placeholder="" id="email" name="email" maxlength="30" required>
+                <label for="email">Enter your email</label>
             </div>
             <div class="input-field">
-                <input type="text" name="email" required>
-                <label>Enter your email</label>
-            </div>
-
-            <div class="input-field">
-                <input name="message" required>
-                <label>Enter your password</label>
+                <input type="password" placeholder=""  id="password" name="password" required>
+                <label for="password">Enter your password</label>
             </div>
             <div class="forgot">
-                
                 <label for="remember">
                     <input type="checkbox" id="remember">
                     <p>Remember me</p>
                 </label>
-                <a href="#">Forgot password?</a>
+               
             </div>
             <button type="submit">Log In</button>
             <div class="register">
                 <p>Don't have an account?
-                <a href="#">Register</a>
+                <a href="register.html">Register</a>
                 </p>
             </div>
         </form>
     </div>
-    <script src="script.js"></script>
+    
+    <script>
+        function validateForm() {
+            const email = document.getElementById("email").value; // Correct ID for email
+            const password = document.getElementById("password").value; // Correct ID for password
+
+            // Validate email format
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email)) {
+                alert("Please enter a valid email address.");
+                return false;
+            }
+
+            // Validate password length
+            if (password.length < 6) {
+                alert("Password must be at least 6 characters long.");
+                return false;
+            }
+
+            alert("Validation successful!");
+            return true;
+        }
+    </script>
+<script>
+const subm = (event) => {
+    // Prevent form submission (reload)
+    event.preventDefault();
+
+    const btn_sub = document.getElementById('searchInput');
+    let search = btn_sub.value.trim().toLowerCase(); // Get the value of the input
+
+    // Check the search term and navigate accordingly
+    if (search === 'store') {
+        window.location.href = 'store.html';
+    } else if (search === 'accessories') {
+        window.location.href = 'accesories.html';
+    }
+    else if (search === 'mobile') {
+        window.location.href = 'mobile.html';
+    } 
+    else if (search === 'login') {
+        window.location.href = 'signin.html';
+    }
+    else if (search === 'tv') {
+        window.location.href = 'tv-entertainment.html';
+    }
+    else if (search === 'support') {
+        window.location.href = 'support.html';
+    }
+    else if (search === 'tablet') {
+        window.location.href = 'tablets.html';
+    }
+    else if (search === 'add to cart') {
+        window.location.href = 'cart.html';
+    }
+    else if (search === 'glowyfy') {
+        window.location.href = 'main.html';
+    }
+    else if (search === 'entertainment') {
+        window.location.href = 'tv-entertainment.html';
+    }
+    else if (search === 'register') {
+        window.location.href = 'register.html';
+    }
+    else if (search === 'laptop') {
+        window.location.href = 'laptop.html';
+    }
+    else if (search === 'appliances') {
+        window.location.href = 'appl.html';
+    }
+    else {
+        window.location.href = 'main.html';
+    }
+
+    // Return false to prevent default form submission behavior
+    return false;
+};
+
+</script>
+
 </body>
-</html>

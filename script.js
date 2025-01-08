@@ -30,7 +30,41 @@ const subm = (event) => {
         window.location.href = 'store.html';
     } else if (search === 'accessories') {
         window.location.href = 'accesories.html';
-    } else {
+    }
+    else if (search === 'mobile') {
+        window.location.href = 'mobile.html';
+    } 
+    else if (search === 'login') {
+        window.location.href = 'signin.html';
+    }
+    else if (search === 'tv') {
+        window.location.href = 'tv-entertainment.html';
+    }
+    else if (search === 'support') {
+        window.location.href = 'support.html';
+    }
+    else if (search === 'tablet') {
+        window.location.href = 'tablets.html';
+    }
+    else if (search === 'add to cart') {
+        window.location.href = 'cart.html';
+    }
+    else if (search === 'glowyfy') {
+        window.location.href = 'main.html';
+    }
+    else if (search === 'entertainment') {
+        window.location.href = 'tv-entertainment.html';
+    }
+    else if (search === 'register') {
+        window.location.href = 'register.html';
+    }
+    else if (search === 'laptop') {
+        window.location.href = 'laptop.html';
+    }
+    else if (search === 'appliances') {
+        window.location.href = 'appl.html';
+    }
+    else {
         window.location.href = 'main.html';
     }
 
