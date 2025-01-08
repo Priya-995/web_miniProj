@@ -3,30 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TV & Entertainment :Glowyfy</title>
-    <link rel="icon" href="images/l.jpg">
+    <title>Glowfy: Bright Living</title>
+    <link rel="icon" href="Images/l.jpg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="tv.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<style>
+    *{
+    padding:0;
+    margin:0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9); /* Black background with some transparency */
+    backdrop-filter: blur(8px); /* Apply blur effect to the background */
+    -webkit-backdrop-filter: blur(8px); /* Safari support for the blur effect */
+    width: 100%; 
+    height: 4.2em;  
+    margin: bottom 2px;
+    top: 0;  /* Keep the nav fixed at the top */
+    left: 0; /* Ensure it spans the full width */
+    z-index: 1000; /* Ensures the nav stays on top of other elements */
+    position: fixed;
+}
+.logo img{
+    height:19em;
+    width:22em;
+    padding-bottom: 1em;
+    padding-top: .2em;
+
+    
+}
+.d-flex{
+    margin-top: 10px;
+    
+}
+nav li a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(171, 172, 175);
+    text-decoration: none;
+    transition: transform 0.4s ease, color 0.3s ease;
+} 
+nav li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: .5em; 
+}
+nav li a:hover {
+    transform: scale(1.2); 
+    color: white; 
+}
+nav li i{
+    font-size: small;
+    padding-left: 1em;
+    color:white;
+}
+section {
+    margin-top: 4.7em; /* Add margin to push content below the fixed nav */
+}
+
+</style>
 <body>
-    <nav>
-        <ul>
-           <img src="images/WhatsApp Image 2024-11-15 at 07.55.03_ad3399d1.jpg" alt=""></li>
-            <li><a href="store.html">Store</a></li>
-            <li><a href="#">Mobile</a></li>
-            <li><a href="#">iPad</a></li>
-            <li><a href="#">Laptops</a></li>
-            <li><a href="#">Home Appliances</a></li>
-            <li><a href="#">TV & Entertainment</a></li>
-            <li><a href="#">Entertainment</a></li>
-            <li><a href="#">Accessories</a></li>
-            <li><a href="#">Support</a></li>
-            <li><i class="fa-solid fa-magnifying-glass"></i></li>
-            <li><i class="fa-solid fa-lock"></i></li>
-        </ul>
-    </nav>
+    <!-- Header Section -->
+  
+        <nav>
+           
+           <a href="main.html" class="logo"><img  src="1.png" alt=""></a>
+           <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            
+          </form>
+          <li><a href="store.html">Store</a></li>
+          <li><a href="mobile.html">Mobile</a></li>
+               <li><a href="tablets.html">Tablet</a></li>
+               <li><a href="laptop.html">Laptops</a></li>
+               <li><a href="appl.html">Home Appliances</a></li>
+               <li><a href="tv-entertainment.html">TV & Entertainment</a></li>
+               <li><a href="accesories.html">Accessories</a></li>
+               <li><a href="support.html">Support</a></li>
+               <li><a href="signin.html"><i class="fa-solid fa-user"></i></a></li>
+               <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </nav>
     <header>
         <h1><u><b>Glowyfy Electronics</b></u></h1>
         <h2>Explore the best in TV & Entertainment</h2>
@@ -42,56 +104,56 @@
 
         <section class="product-grid">
             <article class="product-card">
-                <img src="images/image.png" alt="Smart TV 4K Ultra HD">
+                <img src="tv_img/image.png" alt="Smart TV 4K Ultra HD">
                 <h3>Smart TV 4K Ultra HD</h3>
                 <p>Immersive 4K viewing with smart features.</p>
                 <button>View Details</button>
             </article>
 
             <article class="product-card">
-                <img src="images\f641dc8e-ddb0-4355-b33d-b5ed3004dcbf.jpeg" alt="High-Fidelity Soundbar">
+                <img src="tv_img\f641dc8e-ddb0-4355-b33d-b5ed3004dcbf.jpeg" alt="High-Fidelity Soundbar">
                 <h3>High-Fidelity Soundbar</h3>
                 <p>Experience crystal-clear audio.</p>
                 <button>View Details</button>
             </article>
 
             <article class="product-card">
-                <img src="images\de09795a-d48d-462b-82b5-ad5040e45075.jpeg" alt="Blu-Ray Player">
+                <img src="tv_img\de09795a-d48d-462b-82b5-ad5040e45075.jpeg" alt="Blu-Ray Player">
                 <h3>Blu-Ray Player</h3>
                 <p>Play your favorite movies in high definition.</p>
                 <button>View Details</button>
             </article>
 
             <article class="product-card">
-                <img src="images\3a170361-c233-48f1-b3a3-4566aaee4356.jpeg" alt="OLED TV">
+                <img src="tv_img\3a170361-c233-48f1-b3a3-4566aaee4356.jpeg" alt="OLED TV">
                 <h3>OLED TV with Dolby Vision</h3>
                 <p>Deep blacks and vibrant colors for stunning quality.</p>
                 <button>View Details</button>
             </article>
 
             <article class="product-card">
-                <img src="images\a5037c78-9459-416d-9165-3dc3eea4adc7.jpeg" alt="Home Theater System">
+                <img src="tv_img\a5037c78-9459-416d-9165-3dc3eea4adc7.jpeg" alt="Home Theater System">
                 <h3>Home Theater System</h3>
                 <p>Cinematic sound experience at home.</p>
                 <button>View Details</button>
             </article>
             
             <article class="product-card">
-                <img src="images\c413b38ecec512dc42e31461c083b437.jpg" alt="Wireless Headphones">
+                <img src="tv_img\c413b38ecec512dc42e31461c083b437.jpg" alt="Wireless Headphones">
                 <h3>Wireless Headphones</h3>
                 <p>Experience music without wires.</p>
                 <button>View Details</button>
             </article>
             
             <article class="product-card">
-                <img src="images\1bddaa19d6a629e01505000fbf5dc5c6.jpg" alt="Smartwatch">
+                <img src="tv_img\1bddaa19d6a629e01505000fbf5dc5c6.jpg" alt="Smartwatch">
                 <h3>Smartwatch</h3>
                 <p>Stay connected on the go.</p>
                 <button>View Details</button>
             </article>
             
             <article class="product-card">
-                <img src="images\0d566b6e86e5df8106a42d7fa83f65a8.jpg" alt="Gaming Console">
+                <img src="tv_img\0d566b6e86e5df8106a42d7fa83f65a8.jpg" alt="Gaming Console">
                 <h3>Gaming Console</h3>
                 <p>Ultimate gaming experience awaits.</p>
                 <button>View Details</button>
@@ -100,84 +162,84 @@
          
             
             <article class="product-card">
-                <img src="images\1d1fe1c32f7d71d12462d28c84932b8e.jpg" alt="Bluetooth Speaker">
+                <img src="tv_img\1d1fe1c32f7d71d12462d28c84932b8e.jpg" alt="Bluetooth Speaker">
                 <h3>Bluetooth Speaker</h3>
                 <p>Portable sound for any occasion.</p>
                 <button>View Details</button>
             </article>
             
             <article class="product-card">
-                <img src="images\1504626b19ad8c885d1dfb7f561361f9.jpg" alt="Smart Refrigerator">
+                <img src="tv_img\1504626b19ad8c885d1dfb7f561361f9.jpg" alt="Smart Refrigerator">
                 <h3>Smart Refrigerator</h3>
                 <p>Keep your food fresh and organized.</p>
                 <button>View Details</button>
             </article>
             
             <article class="product-card">
-                <img src="images\ea7ced298ca398891016aac6fa630d70.jpg" alt="Robot Vacuum Cleaner">
+                <img src="tv_img\ea7ced298ca398891016aac6fa630d70.jpg" alt="Robot Vacuum Cleaner">
                 <h3>Robot Vacuum Cleaner</h3>
                 <p>Effortless cleaning at your fingertips.</p>
                 <button>View Details</button>
             </article>
             
             <article class="product-card">
-                <img src="images\e75ddbda351d44e24b6b8099fa200aad.jpg" alt="Digital Camera">
+                <img src="tv_img\e75ddbda351d44e24b6b8099fa200aad.jpg" alt="Digital Camera">
                 <h3>Digital Camera</h3>
                 <p>Capture every moment in stunning detail.</p>
                 <button>View Details</button>
             </article>
             
             <article class="product-card">
-                <img src="images\8788a2969fd4587dea3d283207071c2f.jpg" alt="Fitness Tracker">
+                <img src="tv_img\8788a2969fd4587dea3d283207071c2f.jpg" alt="Fitness Tracker">
                 <h3>Fitness Tracker</h3>
                 <p>Monitor your health and fitness goals.</p>
                 <button>View Details</button>
             </article>
             
             <article class="product-card">
-                <img src="images\10aba82358af6ab2bdb37bf0975e8874.jpg" alt="Electric Toothbrush">
+                <img src="tv_img\10aba82358af6ab2bdb37bf0975e8874.jpg" alt="Electric Toothbrush">
                 <h3>Electric Toothbrush</h3>
                 <p>For a superior clean every day.</p>
                 <button>View Details</button>
             </article>
             
             <article class="product-card">
-                <img src="images\41e1df7de567930a4d321805e5ad0fb6.jpg" alt="Air Fryer">
+                <img src="tv_img\41e1df7de567930a4d321805e5ad0fb6.jpg" alt="Air Fryer">
                 <h3>Air Fryer</h3>
                 <p>Healthy frying made easy.</p>
                 <button>View Details</button>
             </article>
             
             <article class="product-card">
-                <img src="images\0fe231f0cdc2f0821aba1cb619326c53.jpg" alt="Portable Charger">
+                <img src="tv_img\0fe231f0cdc2f0821aba1cb619326c53.jpg" alt="Portable Charger">
                 <h3>Portable Charger</h3>
                 <p>Power up your devices on the go.</p>
                 <button>View Details</button>
             </article>
             
             <article class="product-card">
-                <img src="images\69a576fed845bee5028383bd18cdde7c.jpg" alt="Streaming Device">
+                <img src="tv_img\69a576fed845bee5028383bd18cdde7c.jpg" alt="Streaming Device">
                 <h3>Streaming Device</h3>
                 <p>Access your favorite shows and movies.</p>
                 <button>View Details</button>
             </article>
             
             <article class="product-card">
-                <img src="images\96ae6e2a93e1bd344e7349d19b877a24.jpg" alt="Smart Light Bulb">
+                <img src="tv_img\96ae6e2a93e1bd344e7349d19b877a24.jpg" alt="Smart Light Bulb">
                 <h3>Smart Light Bulb</h3>
                 <p>Control your lighting with your voice.</p>
                 <button>View Details</button>
             </article>
             
             <article class="product-card">
-                <img src="images\ffcca4b274ca4e33e422d098921a7804.jpg" alt="Wireless Router">
+                <img src="tv_img\ffcca4b274ca4e33e422d098921a7804.jpg" alt="Wireless Router">
                 <h3>Wireless Router</h3>
                 <p>Fast and reliable internet connection.</p>
                 <button>View Details</button>
             </article>
             
             <article class="product-card">
-                <img src="images\e75ddbda351d44e24b6b8099fa200aad.jpg" alt="Noise-Cancelling Earbuds">
+                <img src="tv_img\e75ddbda351d44e24b6b8099fa200aad.jpg" alt="Noise-Cancelling Earbuds">
                 <h3>Noise-Cancelling Earbuds</h3>
                 <p>Immerse yourself in your music.</p>
                 <button>View Details</button>

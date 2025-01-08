@@ -162,7 +162,7 @@ body .highlight-section {
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-image: url("Images/i.png"); /* Background image */
+    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX8309433.jpg"); /* Background image */
     height: 570px;
     width: 740px;
     background-size: cover; /* Make sure the image covers the entire area */
@@ -201,7 +201,7 @@ body .highlight-section {
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-image: url("Images/55be8851-7b49-44b1-9844-988bd6576604.jpeg"); /* Background image */
+    background-image: url("https://i.pinimg.com/originals/b1/3b/77/b13b77983b1db9572d26375d5f27fdc4.jpg"); /* Background image */
     height: 570px;
     width: 740px;
     background-size: cover; /* Make sure the image covers the entire area */
@@ -227,7 +227,7 @@ body .highlight-section {
 .boxes .boxes-2 .box-1-bg {
     position: relative;  /* Needed for absolute positioning of pseudo-element */
     margin-left: 10px;
-    background-image: url("Images/6c4c99b0-ac9a-4d1e-9182-8f3745aadcfc.jpeg"); /* Background image */
+    background-image: url("Images/Firefly\ home\ appliances\ about\ 5\ to\ 6\ in\ black\ background\ 100-\ width\ 21057.jpg"); /* Background image */
     height: 570px;
     width: 740px;
     background-size: cover; /* Make sure the image covers the entire area */
@@ -264,7 +264,7 @@ body .highlight-section {
 .boxes .boxes-2 .box-2-bg {
     position: relative;  /* Needed for absolute positioning of pseudo-element */
     margin-left: 10px;
-    background-image: url("Images/a968184d-cfec-442f-bea5-3d8a95918c65.jpeg"); /* Background image */
+    background-image: url("https://img.freepik.com/premium-photo/powerbank-charges-smartphone-isolated-black-background_93200-379.jpg"); /* Background image */
     height: 570px;
     width: 740px;
     background-size: cover; /* Make sure the image covers the entire area */
@@ -300,7 +300,7 @@ body .highlight-section {
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-image: url("Images/46df9296-a168-499f-b049-9b95e3e9ed7e.jpeg"); /* Background image */
+    background-image: url("https://img.freepik.com/premium-photo/digital-camera-black-background_35378-408.jpg"); /* Background image */
     height: 570px;
     width: 740px;
     background-size: cover; /* Make sure the image covers the entire area */
@@ -309,6 +309,7 @@ body .highlight-section {
     padding: 30px;
     overflow: hidden; /* Prevents text from spilling over */
 }
+
 
 /* Pseudo-element to apply blur effect to background image */
 .boxes-me .boxes-1 .box-1-bg::before {
@@ -339,7 +340,7 @@ body .highlight-section {
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-image: url("Images/e5325907-c7ee-4041-b006-732ad3f64559.jpeg"); /* Background image */
+    background-image: url("https://th.bing.com/th/id/OIP.Hv3_SH1B82dcsucapFdPXwAAAA?rs=1&pid=ImgDetMain"); /* Background image */
     height: 570px;
     width: 740px;
     background-size: cover; /* Make sure the image covers the entire area */
@@ -365,7 +366,7 @@ body .highlight-section {
 .boxes-me .boxes-2 .box-1-bg {
     position: relative;  /* Needed for absolute positioning of pseudo-element */
     margin-left: 10px;
-    background-image: url("Images/d2aeed81-9a70-418e-acaf-e1c569fd5855.jpeg"); /* Background image */
+    background-image: url("https://www.officialrundown.com/content/images/2022/10/Best-Toothbrush---Feature.png"); /* Background image */
     height: 570px;
     width: 740px;
     background-size: cover; /* Make sure the image covers the entire area */
@@ -402,7 +403,7 @@ body .highlight-section {
 .boxes-me .boxes-2 .box-2-bg {
     position: relative;  /* Needed for absolute positioning of pseudo-element */
     margin-left: 10px;
-    background-image: url("Images/fotor-ai-2024120834012.jpg"); /* Background image */
+    background-image: url("https://www.technice.com.tw/wp-content/uploads/2024/01/421104204_948527576110835_8658691378699758975_n.jpg"); /* Background image */
     height: 570px;
     width: 740px;
     background-size: cover; /* Make sure the image covers the entire area */
@@ -442,7 +443,6 @@ body .highlight-section {
      color:white;
      font-size:xx-large;
      font-weight: 900;
-
 }
 .boxes-me p{
     font-size: small;
